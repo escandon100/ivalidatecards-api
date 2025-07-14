@@ -11,7 +11,7 @@ const app = express()
 
 app.use(bodyParser.json());
 
-app.use(cors({origin:"http://localhost:5173",credentials : true}))
+app.use(cors({origin:"https://www.ivalidatecards.com",credentials : true}))
 
 
 
